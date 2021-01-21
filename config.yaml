@@ -1,0 +1,10 @@
+baseURL: https://hugo-persona.netlify.app/
+languageCode: en-us
+title: Hugo Persona | First of his name
+params:
+  name: "Hugo Persona"
+build:
+  writeStats: true
+  useResourceCacheWhen: fallback
+paginate: 5
+theme: hugo-persona
