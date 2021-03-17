@@ -9,8 +9,7 @@ module.exports = {
         let els = JSON.parse(content).htmlElements;
         els = els.tags.concat(els.classes, els.ids);
         return els;
-      },
-      safelist: ["dark"]
+      }
     }
   },
   darkMode: 'class', // or 'media' or 'class'
@@ -20,6 +19,18 @@ module.exports = {
         dark: {
           css: {
             color: theme('colors.white'),
+            strong: {
+              color: theme('colors.white'),
+              fontWeight: '600',
+            },
+            blockquote: {
+              fontWeight: '500',
+              fontStyle: 'italic',
+              color: theme('colors.white'),
+              borderLeftWidth: '0.25rem',
+              borderLeftColor: theme('colors.gray.200'),
+              quotes: '"\\201C""\\201D""\\2018""\\2019"',
+            },
             h1: {
               color: theme('colors.white'),
             },
