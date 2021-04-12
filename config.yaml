@@ -1,8 +1,11 @@
-baseURL: https://hugo-persona.netlify.app/
+baseURL: /
 languageCode: en-us
 title: Hugo Persona | First of his name
 params:
   name: "Hugo Persona"
+  description: "A Hugo personal website theme"
+  title: "Hugo Persona"
+  keywords: "hugo, themes, personal website"
 build:
   writeStats: true
   useResourceCacheWhen: fallback
