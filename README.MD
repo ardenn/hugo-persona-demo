@@ -2,5 +2,13 @@
 ## Hosting
 The static website is hosted on [Netlify](https://netlify.com) under the free plan.
 
+## Usage
+- Start the tailwind JIT engine using:
+`npx tailwindcss -i ./themes/hugo-persona/assets/css/main.css -o ./themes/hugo-persona/assets/css/styles.css --watch`
+
+- Start the hugo server using:
+`hugo server -D`
+
+- Write the site content. Happy development!
 ## Licence
 [MIT](https://choosealicense.com/licenses/mit/#)
